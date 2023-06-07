@@ -1,15 +1,17 @@
-const quiz = require ('./quiz');
+const {  numbMax, numMin, numSum, ordenNumbs } = require('./quiz');
 
 
-const maxNumber = getMaxNumber(numbers);
-console.log(quiz.getMaxNumber('Número mayor:'), maxNumber);
 
-const minNumber = getMinNumber(numbers);
-console.log(quiz.getMinNumber('Número menor:'), minNumber);
+const numbers = [19, 4, 83, 57, 66, 32, 10, 92, 15, 78, 42, 61, 7, 54, 28, 95, 12, 36, 70, 89];
 
-const sum = getSum(numbers);
-console.log(quiz.getSum('Sumatoria:'), sum);
+const maxNumber = numbMax(numbers);
+console.log('Número mayor:', maxNumber);
 
-const sortedNumbers = sortNumbers(numbers);
-console.log(quiz.sortNumbers('Números ordenados:'), sortedNumbers);
+const minNumber = numMin(numbers);
+console.log('Número menor:', minNumber);
 
+const sum = numSum(numbers);
+console.log('Sumatoria:', sum);
+
+const sortedNumbers = ordenNumbs(numbers);
+console.log('Números ordenados:', sortedNumbers);
