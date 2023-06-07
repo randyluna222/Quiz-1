@@ -13,5 +13,5 @@ console.log('Número menor:', minNumber);
 const sum = numSum(numbers);
 console.log('Sumatoria:', sum);
 
-const sortedNumbers = ordenNumbs(numbers);
-console.log('Números ordenados:', sortedNumbers);
+const orderedNumbs = ordenNumbs(numbers);
+console.log('Números ordenados:', orderedNumbs);
